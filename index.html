@@ -1,11 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    
+    <!-- Header section -->
+    <div class="Header">
+        Coffe shop
+    </div>
+
+    <!-- Navigation section -->
+    <div class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Order</a>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- About section -->
+    <div class="about">
+        <h2 class="about__title">About our coffee</h2>
+        <p class="about__description">What is Lorem Ipsum?
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Special section -->
+    <div class="special">
+        <h2 class="special__title">Special Items</h2>
+        <div class="list1">
+            <h3 class="list1__title">The coffee list 1</h3>
+            <ul>
+                <li>Black coffee</li>
+                <li>Pink coffee</li>
+                <li>Green</li>
+            </ul>
+            <div class="list1__img">
+                <img src="./Image_buoi4/chilling-cafe-11.jpg" alt="">
+                <img src="./Image_buoi4/chilling-cafe-12.jpg" alt="">
+            </div>
+        </div>
+        <div class="list2">
+            <h3 class="list2__title">The coffee list 2</h3>
+            <ol>
+                <li>Cup</li>
+                <li>Art</li>
+                <li>Tea</li>
+            </ol>
+            <div class="list2__img">
+                <img src="./Image_buoi4/chilling-cafe-13.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- MENU SECTION -->
+    <div class="menu">
+        <h2 class="menu__title">Menu</h2>
+        <table class="menu__table">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td rowspan="4" class="traditional-coffe">Traditional Coffee</td>
+                <td rowspan="2">Vietnamese Coffee</td>
+                <td>Hot</td>
+                <td>60.000</td>
+            </tr>
+            <tr>
+                <td>Cold</td>
+                <td>28.000</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Milk coffe</td>
+                <td>Hot</td>
+                <td>38.000</td>
+            </tr>
+            <tr>
+                <td>Cold</td>
+                <td>54.000</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="expresso">Expresso</td>
+                <td>American coffe</td>
+                <td rowspan="3">Hot</td>
+                <td>110.000</td>
+            </tr>
+            <tr>
+                <td>Machiato</td>
+                <td rowspan="2">40.000</td>
+            </tr>
+            <tr>
+                <td>Capuchino</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- FOOTER SECTION -->
+    <div class="footer">
+        <h2 class="footer__title">Talk to us</h2>
+        <p class="footer__contact-info">Reach us via <b>Email</b>: <a href="#">babomma@gmail.com</a> or <b>Hotline</b>: <a href="#">0917602550</a>. Thank you</p>
+    </div>
 </body>
+
 </html>
